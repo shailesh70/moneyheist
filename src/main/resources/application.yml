@@ -1,0 +1,16 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enable: true
+  application:
+    name: moneyHeist
+    author: Shailesh
+    version: '@project.version@'
+
+spring:
+  profiles:
+    active: dev

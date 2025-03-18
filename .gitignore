@@ -22,3 +22,35 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Eclipse project files
+.settings/
+.classpath
+.project
+
+# NetBeans project files
+nbproject/
+
+# Gradle files
+.gradle/
+build/
+!build/resources/main/META-INF/
+!build/resources/main/META-INF/maven/
+!build/resources/main/static/
+!build/resources/main/templates/
+!build/resources/test/
+
+# Local configuration files (e.g., database passwords)
+application-local.properties
+application-dev.properties
+application-test.properties
+application-*.yml
+application-*.yaml
+
+# OS generated files
+.DS_Store
+Thumbs.db
